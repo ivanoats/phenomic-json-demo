@@ -1,7 +1,7 @@
 {
-  "name": "phenomic-react",
-  "version": "1.0.0",
-  "description": "",
+  "name": "phenomic-json-demo",
+  "version": "0.0.1",
+  "description": "Demonstrate building large site with Phenomic from JSON files",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,9 +12,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@phenomic/cli": "^1.0.0-alpha.20",
-    "@phenomic/core": "^1.0.0-alpha.20",
-    "@phenomic/preset-react-app": "^1.0.0-alpha.20",
+    "@phenomic/cli": "^1.0.0-beta.0",
+    "@phenomic/core": "^1.0.0-beta.0",
+    "@phenomic/preset-react-app": "^1.0.0-beta.0",
     "eslint": "^4.18.2",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-prettier": "^2.6.0",
@@ -29,5 +29,9 @@
     "presets": [
       "@phenomic/preset-react-app"
     ]
+  },
+  "dependencies": {
+    "bufferutil": "^3.0.3",
+    "utf-8-validate": "^4.0.0"
   }
 }
