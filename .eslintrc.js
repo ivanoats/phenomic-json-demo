@@ -19,9 +19,7 @@ module.exports = {
   },
   plugins: ['react', 'prettier'],
   rules: {
-    'prettier/prettier': 'error'
-  },
-  rules: {
+    'prettier/prettier': 'error',
     semi: [2, 'never'],
     quotes: [2, 'single']
   }
